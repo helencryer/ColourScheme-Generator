@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.generate-scheme {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: .75em;
+    padding: 1em 0;
+}
+
+.generate-output {
+    border: 1px solid black;
+    height: 100%;
+}
+
+input {
+    border-radius: 5px;
+}
+
+button {
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    color: #374151;
+    border-radius: 5px;
+    padding: 10px 8px;
+}
+
+#seed-color {
+    height: 35px;
+    width: 50px;
+    border: 1px solid #D1D5DB;
+}
+
+#scheme {
+    padding: 8px 8px;
+    border: 1px solid #D1D5DB;
+    color: #374151;
+}
